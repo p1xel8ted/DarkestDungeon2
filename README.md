@@ -14,6 +14,8 @@
 - Re-enables the Config button on the main screen in the top left.
 - Removes Feedback/Mailinglist/Credits buttons.
 
+- Skip intros is work in progress. It's tied to asset loading and so on.
+
 ## Installation
 
 - Grab the latest release of Darkest Dungeon 2 Ultra-wide Fix from [here.](https://github.com/p1xel8ted/DarkestDungeon2/releases)
