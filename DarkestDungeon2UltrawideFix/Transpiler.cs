@@ -53,7 +53,7 @@ namespace DarkestDungeon2UltrawideFix
         private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var originalInstructions = instructions.ToList();
-            var getResolutionsMethod = AccessTools.Property(typeof(Screen), "resolutions")?.GetGetMethod();
+            var getResolutionsMethod = AccessTools.Property(typeof(Screen), nameof(Screen.resolutions))?.GetGetMethod();
             var myResolutionsMethod = AccessTools.Method(typeof(ScreenResolutionsPatch), nameof(MyResolutions));
 
             foreach (var instruction in originalInstructions)
