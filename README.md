@@ -14,6 +14,8 @@
 - Re-enables the Config button on the main screen in the top left.
 - Removes Feedback/Mailinglist/Credits buttons.
 
+## WIP
+
 - Skip intros is work in progress. It's tied to asset loading and so on.
 
 ## Installation
