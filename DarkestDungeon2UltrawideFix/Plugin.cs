@@ -3,7 +3,7 @@ using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 
-namespace DarkestDungeon2
+namespace DarkestDungeon2UltrawideFix
 {
     [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
     public class Plugin : BaseUnityPlugin

@@ -6,7 +6,7 @@ using HarmonyLib;
 using UnityEngine;
 using Display = UnityEngine.Display;
 
-namespace DarkestDungeon2
+namespace DarkestDungeon2UltrawideFix
 {
     /// <summary>
     /// A Harmony patch to intercept Unity's Screen.resolutions method and add custom resolutions.

@@ -11,7 +11,7 @@ using UnityEngine;
 using Display = UnityEngine.Display;
 using Math = System.Math;
 
-namespace DarkestDungeon2;
+namespace DarkestDungeon2UltrawideFix;
 
 /// <summary>
 /// A class to hold patches for manipulating screen resolutions and other game aspects.
